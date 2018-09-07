@@ -20,7 +20,7 @@ html,body{ height:100%; width:100%; overflow:hidden; position: relative;}
 
 /*新建*/
 body{ background:#2758a7 url(./images/cover/bg.jpg) no-repeat center bottom; background-size:100% auto;}
-.con_wrap{ display:block; height:100%; width:100%; background:none; position:absolute; left:0px; top:0px; -webkit-transition: -webkit-transform 0.3s linear,opacity 0.3s linear; -webkit-transform-origin: 50% 180%; z-index:2;}
+.con_wrap{ display:block; height:100%; width:100%; background:none; position:absolute; left:0px; top:100px; -webkit-transition: -webkit-transform 0.3s linear,opacity 0.3s linear; -webkit-transform-origin: 50% 180%; z-index:2;}
 .wrap_show{ -webkit-transform:rotate(0deg); opacity:1; z-index:2;}
 
 .earth_bg{ display:block; height:100%; width:100%; position:absolute; left:0; bottom:0; background:url(./images/cover/earth_bg.png) no-repeat center bottom; background-size:contain; z-index:1;}
@@ -41,8 +41,8 @@ body{ background:#2758a7 url(./images/cover/bg.jpg) no-repeat center bottom; bac
 
 .tree_wrap .tree_1{display:block; height:150px; width:112px; position:absolute; left:50%; margin-left:-157px; bottom:240px; z-index:1; -webkit-transform-origin:50% 100%; opacity:0.8;}
 .tree_wrap .tree_2{display:block; height:160px; width:149px; position:absolute; left:50%; margin-left:28px; bottom:245px; z-index:1; -webkit-transform-origin:50% 100%; opacity:0.8; }
-.tree_wrap .tree_1 i{display:block; height:150px; width:112px; background:url(./images/page_3/sprite_scene.png) no-repeat 0 0;  background-size:250px 160px; position:absolute; left:0; bottom:0; z-index:1; -webkit-transform-origin:50% 100%; opacity:1; }
-.tree_wrap .tree_2 i{display:block; height:160px; width:149px; background:url(./images/page_3/sprite_scene.png) no-repeat -114px 0;  background-size:250px 160px; position:absolute; left:0; bottom:0; z-index:1; -webkit-transform-origin:50% 100%; opacity:1; }
+.tree_wrap .tree_1 i{display:block; height:150px; width:112px;  background-size:250px 160px; position:absolute; left:0; bottom:0; z-index:1; -webkit-transform-origin:50% 100%; opacity:1; }
+.tree_wrap .tree_2 i{display:block; height:160px; width:149px;  background-size:250px 160px; position:absolute; left:0; bottom:0; z-index:1; -webkit-transform-origin:50% 100%; opacity:1; }
 
 .motor_hook{ display:block; height:107px; width:187px; position:absolute; bottom:221px; left:50%; margin-left:-96px; z-index:3;}
 .motor_wrap{ display:block; height:107px; width:187px; position:absolute; top:0px; left:0; -webkit-transform-origin:50% 700%; -webkit-transform:rotate(-32deg); z-index:1; opacity:0;}
